@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>FinGenesis Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body {
+        font-family: "Lato", sans-serif
+    }
+
+    .mySlides {
+        display: none
+    }
+
+    .placeholder {
+        color: grey;
+        text-align: left;
+        float: right;
+    }
+</style>
+
+<body>
+
+
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0)" onclick="myFunction()" title="Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
+            <a href="#fingenesisAI" class="w3-bar-item w3-button w3-padding-large w3-hide-small">FinGenesis AI</a>
+            <a href="#solutions" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Solutions</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact us</a>
+            <a href="#join" class="w3-bar-item w3-button w3-padding-large">Join us</a>
+            <a href="#about" class="w3-bar-item w3-button w3-padding-large">about us</a>
+            <input type="text" placeholder="Search.." class="fa fa-search"
+                style="text-align: left; color: gray; float: right;">
+        </div>
+    </div>
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+        <a href="#fingenesisAI" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">FinGenesis AI</a>
+        <a href="#solutions" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Solutions</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact us</a>
+        <a href="#join" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Join us</a>
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About us</a>
+        <input type="text" placeholder="Search.." class="fa fa-search"
+            style="text-align: left; color: gray; float: right;">
+
+
+
+
+        <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+    </div>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+        <!-- Automatic Slideshow Images -->
+        <div class="mySlides w3-display-container w3-center">
+            <img src="https://format-com-cld-res.cloudinary.com/image/private/s--JqeqARc3--/c_limit,g_center,h_1200,w_65535/fl_keep_iptc.progressive.apng/v1/e134bda012a2398cefd1dda4cb23e78a/Quants_6.png"
+                style="width:100%">
+
+
+
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="https://media-exp1.licdn.com/dms/image/C561BAQFwLVgEwQNNqQ/company-background_10000/0/1614354135409?e=2159024400&v=beta&t=Rq_jsQP6ZmTPaXdSLoXGMri5eonoS7yQswArGXZ3iKo"
+                style="width:100%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="https://static.wixstatic.com/media/ef9271_43dcf07e0351418aae99ea0eb6ca6918~mv2.png/v1/fill/w_2933,h_679,al_c/ef9271_43dcf07e0351418aae99ea0eb6ca6918~mv2.png"
+                style="width:100%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+
+            </div>
+        </div>
+
+        <!-- FinGenesisAI-->
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="fingenesisAI">
+
+            <h2 class="w3-wide">FinGenesis AI</h2>
+            <p class="w3-justify"> Our products are relevant in multiple industries and this year we are to launch a few
+                products, for selected B2B clients as well as a broader B2C audience that are often underserved and not
+                offered enterprise-grade AI solutions like ours. </p>
+        </div>
+
+        <!-- The Tour Section -->
+        <div class="w3-black" id="solutions">
+            <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+                <h2 class="w3-wide w3-center">Solutions</h2>
+
+
+                <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="https://media-exp1.licdn.com/dms/image/C510BAQHkKFSsVI3SZQ/company-logo_200_200/0/1585999394754?e=2159024400&v=beta&t=F5kyPn3E2i5KYHQH9G0A0jXqJ9Q6gDlzXHAt69_Kri4"
+                            style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('check').style.display='block'">Check</button>
+                        </div>
+                    </div>
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="https://media-exp1.licdn.com/dms/image/C510BAQHkKFSsVI3SZQ/company-logo_200_200/0/1585999394754?e=2159024400&v=beta&t=F5kyPn3E2i5KYHQH9G0A0jXqJ9Q6gDlzXHAt69_Kri4"
+                            style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('check').style.display='block'">Check</button>
+                        </div>
+                    </div>
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="https://media-exp1.licdn.com/dms/image/C510BAQHkKFSsVI3SZQ/company-logo_200_200/0/1585999394754?e=2159024400&v=beta&t=F5kyPn3E2i5KYHQH9G0A0jXqJ9Q6gDlzXHAt69_Kri4"
+                            style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('check').style.display='block'">Check</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- The Contact Section -->
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+            <h2 class="w3-wide w3-center">CONTACT</h2>
+            <p class="w3-opacity w3-center"><i> To contact us please enter the following informations</i></p>
+
+            <div class="w3-row w3-padding-32">
+                <div class="w3-col m6 w3-large w3-margin-bottom">
+                    <i class="fa fa-map-marker" style="width:30px"></i> Singapore, SG<br>
+                    <i class="fa fa-envelope" style="width:30px"> </i> Email: parag@fingenesis.com<br>
+                </div>
+                <div class="w3-col m6">
+                    <form action="/action_page.php" target="_blank">
+                        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                            <div class="w3-half">
+                                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                            </div>
+                            <div class="w3-half">
+                                <input class="w3-input w3-border" type="text" placeholder="email@email.com" required name="Email">
+                            </div>
+                        </div>
+                        <input class="w3-input w3-border" type="text" placeholder="Type your message here" required name="Message">
+                        <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--the join us section-->
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="join">
+            <h2 class="w3-wide w3-center">Join us</h2>
+            <p class="w3-opacity w3-center"><i></i>Log in</p>
+            <div class="w3-col m6">
+                <form action="/action_page.php" target="_blank">
+                    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                        </div>
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="password" placeholder="Password" required
+                                name="Password">
+                        </div>
+                    </div>
+                    <button class="w3-button w3-black w3-section w3-right" type="submit">Submit</button>
+                    <a href="sign in">Sign in</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!-- About us-->
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
+
+        <h2 class="w3-wide">About us</h2>
+        <p class="w3-justify"> FinGenesis is an AI company building the new generation of Deep Learning AI to provide
+            more accurate and better forecasting solutions.
+
+            The company is based in Singapore with a presence in 4 continents. FinGenesis is more than 10 people strong
+            and is rapidly growing.
+            More experienced members of the team include the Founder who brings deep experience in Finance and Tech, and
+            a few thought-leaders with
+            PhDs from top universities in the US (Berkeley, UMinn). Our team has more than 70 years of collective
+            experience, speaks 6 languages,
+            and everyone innovates constantly to bring us forward. </p>
+    </div>
+
+
+    <!-- Image of location/map -->
+    <div class="w3-image w3-greyscale-min"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://www.bing.com/maps/embed?h=400&w=500&cp=1.2822249734894626~103.85000915575024&lvl=19&typ=d&sty=r&src=SHELL&FORM=MBEDV8"
+         frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies2.org"></a><br><style>.mapouter{position:relative;text-align:center;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px; float:center;}</style></div></div>
+        
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+
+
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+    </footer>
+
+    <script>
+        // Automatic Slideshow - change image every 2 seconds
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000);
+        }
+
+    
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
