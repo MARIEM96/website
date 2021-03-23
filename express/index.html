@@ -132,7 +132,10 @@
         <!-- The Contact Section -->
         <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
             <h2 class="w3-wide w3-center">CONTACT</h2>
-            <p class="w3-opacity w3-center"><i> To contact us please enter the following informations</i></p>
+            <p class="w3-opacity w3-center"><i> If you are an enterprise that loves to continuously improve your business and operations forecasts, and
+                have lots of customer and operations data to achieve this, we will love to speak with you and provide
+                the true AI forecasting solutions that solve your needs.
+                We are here to help. Discover it for yourself and talk to us.</i></p>
 
             <div class="w3-row w3-padding-32">
                 <div class="w3-col m6 w3-large w3-margin-bottom">
@@ -141,15 +144,55 @@
                 </div>
                 <div class="w3-col m6">
                     <form action="/action_page.php" target="_blank">
-                        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-                            <div class="w3-half">
-                                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                        <div class="w3-row-padding" style="margin:0 -16px 8px -16px" >
+                            <div class="w3-input w3-border">
+                                 <select id="test">
+                                <p> Choose an option</p>
+                                <option >Choose an option</option>
+                                <option value="1">Personal Inquiry</option>
+                                <option value="2">Business Partnership</option>
+                                <option value="3">Investor</option>
+                               
+                              </select>
                             </div>
-                            <div class="w3-half">
-                                <input class="w3-input w3-border" type="text" placeholder="email@email.com" required name="Email">
+                            <div class="w3-input w3-border">
+                                <label for="first">First Name :</label>
+
+                                <input class="w3-input w3-border" type="text" id="first" placeholder="first name" required name="Name" required>
                             </div>
+                            <div class="w3-input w3-border">
+                                <label for="last">Last Name :</label>
+
+                                <input class="w3-input w3-border" type="text" id="last" placeholder="first name" required name="Name" required>
+                            </div>
+                            <div class="w3-input w3-border">
+                                <label for="email">Email:</label>
+
+                                <input class="w3-input w3-border" type="text" placeholder="email@email.com" required name="Email" required>
+                            </div>
+                            <div class="w3-input w3-border">
+                                <label for="phone">Phone Number :</label>
+                            <input  class="w3-input w3-border" type="tel" id ="phone" placeholder="+5 (555)552555 " pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
                         </div>
-                        <input class="w3-input w3-border" type="text" placeholder="Type your message here" required name="Message">
+                      
+                        <div class="w3-input w3-border">
+                        <label for="website">Company Website:</label>
+                        <input class="w3-input w3-border" type="text" id="website" placeholder="example.com">
+                    </div>
+                    <div class="w3-input w3-border">
+                        <p> Get included in our Newsletter</p>
+
+                        <div>
+                          <input type="checkbox" id="yes" name="yes"
+                                 checked>
+                          <label for="yes">Yes</label>
+                        </div>
+                        
+                        <div>
+                          <input type="checkbox" id="no" name="no">
+                          <label for="no">No</label>
+                        </div>
+                    </div>
                         <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
                     </form>
                 </div>
